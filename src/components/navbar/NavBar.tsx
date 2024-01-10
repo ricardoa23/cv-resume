@@ -1,26 +1,31 @@
 import React from "react";
 
+//FIXME: Achor tags need to be with appropriate links
+
+/* TODO: colors need to be updated to color schema 
+  -Additional styling needed
+ */
+
 const NavBar = () => {
   return (
-    <div className="bg-accent">
-      <ul className= "flex justify-evenly border border-solid border-slate-800">
-        <li>
+    <div>
+      <ul className= "flex justify-between border border-solid border-slate-800">
+        <li className="border border-solid border-slate-800 px-5">
           <a href="">Home</a>
         </li>
-        <li>
+        <li className="border border-solid border-slate-800 px-5">
           <a href="">About</a>
         </li>
-        <li>
+        <li className="border border-solid border-slate-800 px-5">
           <a href="">Projects</a>
         </li>
-        <li>
+        <li className="border border-solid border-slate-800 px-5">
           <a href="">Experience</a>
         </li>
-        <li>
+        <li className="border border-solid border-slate-800 px-5">
           <a href="">Contact</a>
         </li>
       </ul>
-      <div className="bg-cta"> Hello </div>
     </div>
     
   );
