@@ -5,8 +5,7 @@ import {HeroSection, Navbar, WorkHistory, SkillsSection } from '../components'
 export default function Home() {
   return (
     <div>
-      Hello World
-
+      <Navbar/>
     </div>
   )
 }
