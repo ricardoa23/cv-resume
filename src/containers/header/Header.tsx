@@ -9,10 +9,10 @@ import { Navbar } from '../../components'
 
 const Header = () => {
   return (
-    <div className=" flex justify-between py-5">
+    <header className=" flex justify-between py-5">
       <div>Logo PlaceHolder</div>
       <Navbar/>
-    </div>
+    </header>
   )
 }
 

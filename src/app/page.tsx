@@ -6,7 +6,8 @@ import { Header } from '../containers'
 export default function Home() {
   return (
     <div>
-      <Header/>
+      {/* <Header/> */}
+      <HeroSection/>
     </div>
   )
 }
