@@ -11,6 +11,7 @@ import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 // TODO: need to improve the summary ln 127
 // FIXME: possibly find a Way to make the hero Section render Server Side
 // TODO: See if the Buttons make sense / if removed increase size of summary text
+//  TODO: Add box Shadows to the buttons
 
 const navigation = [
   { name: "PlaceHolder", href: "#" },
