@@ -26,7 +26,7 @@ const HeroSection = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-    <div className="bg-gradient-to-t from-accent4 to-white h-screen">
+    <section className="bg-gradient-to-t from-bsg to-accent4 h-screen w-screen">
       <header className="absolute inset-x-0 top-0 z-50">
         <nav
           className="flex items-center justify-between p-6 lg:px-8"
@@ -78,11 +78,7 @@ const HeroSection = () => {
             <div className="flex items-center justify-between">
               <a href="#" className="-m-1.5 p-1.5">
                 <span className="sr-only">Your Company</span>
-                <img
-                  className="h-8 w-auto"
-                  src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
-                  alt=""
-                />
+                <div>Placeholder</div>
               </a>
               <button
                 type="button"
@@ -121,26 +117,26 @@ const HeroSection = () => {
       </header>
 
       <div className="relative isolate px-6 pt-14 lg:px-8">
-        <div className="mx-auto max-w-2xl py-28 sm:py-48 lg:py-50">
+        <div className="mx-auto max-w-2xl pt-28 pb-4 sm:py-40 lg:py-46 xl:py-64">
           <div className="hidden sm:mb-8 sm:flex sm:justify-center"></div>
           <div className="text-center">
             <h1 className="text-4xl font-bold tracking-tight text-accent sm:text-6xl">
               Ricardo Ayala
             </h1>
             {/*summary Section */}
-            <p className="mt-6 text-lg leading-8 text-gray-600">
-              Just a place Where you can find out a bit about my professional life and somewhere you can check out some of the things I've worked on.
+            <p className="mt-6 text-md leading-8 text-gray-600">
+            Leveraging a strong aerospace background and disciplined approach acquired as an Air Force veteran, I transitioned into tech through CodeUp's intensive 5-month bootcamp, acquiring hands-on experience in full-stack software development. Committed to excellence and continuous learning, I seamlessly blend technical skills with a problem-solving mindset to deliver high-quality software solutions.
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6">
               <a
                 href="#"
-                className="rounded-md min-w-[120px] bg-accent2 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-accent1"
+                className="rounded-md min-w-[120px] bg-accent2 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-accent1 border-white border border-solid"
               >
                 Work History
               </a>
               <a
                 href="#"
-                className="rounded-md min-w-[120px] bg-accent2 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-accent1 "
+                className="rounded-md min-w-[120px] bg-accent2 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-accent1 border-white border border-solid "
               >
                 Portfolio
               </a>
@@ -152,23 +148,33 @@ const HeroSection = () => {
               </a>
             </div>
           </div>
-          
         </div>
         <div className="flex justify-center items-start">
-        <a
-                href="#"
-                className="rounded-md min-w-[120px] bg-accent2 px-3.5 py-2 text-sm font-semibold text-white shadow-sm hover:bg-accent1 text-center"
-              >
-                Take A Look
-              </a>
+          <a
+            href="#"
+            className="rounded-md min-w-[120px] bg-accent2 px-3.5 py-2 text-sm font-semibold text-white shadow-sm hover:bg-accent1 text-center border-white border border-solid"
+          >
+            Take A Look
+          </a>
         </div>
-            <div className="flex justify-center mt-10">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="w-10 h-10">
-  <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 17.25 12 21m0 0-3.75-3.75M12 21V3" />
-</svg>
-            </div>
+        <div className="flex justify-center mt-5">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            className="w-10 h-10"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M15.75 17.25 12 21m0 0-3.75-3.75M12 21V3"
+            />
+          </svg>
+        </div>
       </div>
-    </div>
+    </section>
   );
 };
 
