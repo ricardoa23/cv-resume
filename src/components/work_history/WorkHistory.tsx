@@ -6,14 +6,15 @@ const WorkHistory = () => {
 
   const dataMapping = data.map((item, index) => {
     return (
-      <div key={index}>
-        <h2>{item.title}</h2>
-        <h3>{item.company}</h3>
+      <div key={index} className="border border-solid border-accent2 my-2 bg-white mx-3 rounded-lg px-3">
+        <h2  className="text-center text-4xl text-accent3 pt-3">{item.title}</h2>
+        <h3 className="text-xl">{item.company}</h3>
+        <p className="text-md">{item.location}</p>
         <p><span>{item.startDate}</span> - <span>{item.endDate}</span></p>
-        <ul>
+        <ul className="list-disc px-3 pb-4">
           {item.duties.map((duty, index) => {
             return (
-              <li key={index}>{duty}</li>
+              <li key={index} className="px-1 py-2">{duty}</li>
             )
           })}
         </ul>

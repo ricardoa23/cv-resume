@@ -1,13 +1,13 @@
 import Image from 'next/image'
-import {HeroSection, Navbar, WorkHistory } from '../components'
-import { SkillsSection, SideBar } from '../components'
+import {HeroSection, Navbar, WorkHistory, SkillsSection, SideBar, CvSection } from '@/components'
 
 
 export default function Home() {
   return (
-  <div>
+  <main className="flex bg-accent2 h-dvh w-dvw overflow-hidden">
     {/* <HeroSection /> */}
     < SideBar />
-  </div>
+    <CvSection />
+  </main>
   )
 }

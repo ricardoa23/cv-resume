@@ -8,7 +8,7 @@ import {SkillsSection} from '../../components'
 
 const SideBar = () => {
   return (
-    <div className=" rounded-lg border-2 border-solid max-w-[33%] min-h-screen bg-sidebar flex flex-col position-absolute overflow-hidden ms-1">
+    <div className="rounded-lg border-4 border-solid border-white w-1/3 bg-sidebar flex flex-col position-absolute overflow-hidden m-3">
     <img 
       src="/placeholder.png"
       className="rounded-full max-h-[200px] max-w-[200px] box-shadow-xl p-4 mx-auto my-4"

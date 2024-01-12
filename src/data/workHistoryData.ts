@@ -10,12 +10,12 @@ import { WorkHistoryModel } from "@/models";
         duties: ['Ensured MQ-1 and MQ-9 readiness through detailed pre-, in-, and post-flight inspections.', 'Conducted both routine and emergency maintenance on aircraft systems to enhance availability.', 'Diagnosed and fixed aircraft malfunctions swiftly, ensuring operational success with minimal downtime.', 'Kept meticulous maintenance records to comply with regulations and support team communication.', 'Trained junior staff in maintenance and safety, promoting a high standard of team excellence.']
     },
     {
-        title: `Crash Rescovery Team Member 'Emergency Response Team Member'`,
+        title: `Crash Rescovery Team Member`,
         company: 'United States Air Force',
         location: 'Holloman AFB, NM',
         startDate: 'December 2013',
         endDate: 'December 2016',
-        duties: ['Played a key role in emergency maintenance, ensuring the safe removal of aircraft from runways, reducing flight operation disruptions.', 'Coordinated with agencies for aircraft accident response, devised salvage plans, and handled sensitive equipment, mitigating environmental damage.', 'Collaborated with agencies to efficiently salvage crashed aircraft parts and acted as an expert in equipment identification and removal.', 'Managed $3.2 million in tools and equipment with regular maintenance, preventing aircraft damage through a thorough checkout proces', 'Oversaw a squadron radio program, managing $280,000 in assets and liaising with the base communication team for technical maintenance.', 'As air quality manager, tracked gas usage and reported to regulatory bodies, avoiding fines and upholding environmental standards.']
+        duties: ['Played a key role in emergency maintenance response, ensuring the safe removal of aircraft from runways, reducing flight operation disruptions.', 'Coordinated with agencies for aircraft accident response, devised salvage plans, and handled sensitive equipment, mitigating environmental damage.', 'Collaborated with agencies to efficiently salvage crashed aircraft parts and acted as an expert in equipment identification and removal.', 'Managed $3.2 million in tools and equipment with regular maintenance, preventing aircraft damage through a thorough checkout proces', 'Oversaw a squadron radio program, managing $280,000 in assets and liaising with the base communication team for technical maintenance.', 'As air quality manager, tracked gas usage and reported to regulatory bodies, avoiding fines and upholding environmental standards.']
     },
     {
         title: 'Assembly Mechanic / Inspector',
