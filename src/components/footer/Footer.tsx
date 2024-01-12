@@ -1,8 +1,15 @@
 import React from 'react'
 
+// TODO: create  contact section for the footer.
+//TODO: create a section 
+
+
 const Footer = () => {
   return (
-    <div>Footer</div>
+    <section>
+      <div></div>
+      <div></div>
+    </section>
   )
 }
 
