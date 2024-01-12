@@ -17,8 +17,8 @@ const config: Config = {
         accent1: "#219EBC",
         accent2: "#023047",
         accent3: "#FB8500",
-        accent4: "#FFB703", //Yellow
-        sideBar: "#8ECAE6",
+        accent4: "#FFB703",
+        sidebar: "#8ECAE6",
         cvbg: "#D7D7D7",
       }
     },
