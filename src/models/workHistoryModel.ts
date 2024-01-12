@@ -4,11 +4,11 @@ class WorkHistoryModel implements TworkHistoryTemplate {
     title: string;
     company: string;
     location: string;
-    startDate: Date;
-    endDate: Date;
+    startDate: string;
+    endDate: string;
     duties: string[];
 
-    constructor(title: string, company: string, location: string, startDate: Date, endDate: Date, duties: string[]) {
+    constructor(title: string, company: string, location: string, startDate: string, endDate: string, duties: string[]) {
         this.title = title;
         this.company = company;
         this.location = location;

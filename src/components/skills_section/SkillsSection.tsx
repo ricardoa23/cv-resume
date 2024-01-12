@@ -1,5 +1,5 @@
 import React from 'react'
-import { techSkills, softSkills } from '../../utilities/resumeData'
+import { techSkills, softSkills } from '../../data/skillsData'
 
 //TODO; figure out additiuonal styling
 //TODO: adjust color and text size based

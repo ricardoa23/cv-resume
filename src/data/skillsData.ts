@@ -1,4 +1,3 @@
-
 export const techSkills: string[] = [
     "HTML",
     "CSS",
@@ -51,4 +50,4 @@ export const techSkills: string[] = [
     'Touble Shooting',
     'Attention to Detail',
     'Flexibility',
-  ];  
+  ];
