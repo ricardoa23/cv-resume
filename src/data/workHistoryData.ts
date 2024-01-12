@@ -1,6 +1,6 @@
 import { WorkHistoryModel } from "@/models";
 
-const workHistoryData: WorkHistoryModel[] = [
+ export const workHistoryData: WorkHistoryModel[] = [
     {
         title: 'Aircraft Mechanic',
         company: 'United States Air Force',
