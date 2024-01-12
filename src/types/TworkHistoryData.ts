@@ -2,8 +2,8 @@ type TworkHistoryTemplate = {
     title: string;
     company: string;
     location: string;
-    startDate: Date;
-    endDate: Date;
+    startDate: string;
+    endDate: string;
     duties: string[];
   }
 
