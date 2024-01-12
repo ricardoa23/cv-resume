@@ -20,6 +20,7 @@ const config: Config = {
         accent4: "#FFB703",
         sidebar: "#8ECAE6",
         cvbg: "#D7D7D7",
+        bsg: "#848482"
       }
     },
   },
