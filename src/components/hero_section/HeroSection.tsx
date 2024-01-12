@@ -117,7 +117,7 @@ const HeroSection = () => {
       </header>
 
       <div className="relative isolate px-6 pt-14 lg:px-8">
-        <div className="mx-auto max-w-2xl pt-28 pb-4 sm:py-40 lg:py-46 xl:py-64">
+        <div className="mx-auto max-w-2xl pt-28 pb-4 sm:py-40 lg:py-40 xl:py-50">
           <div className="hidden sm:mb-8 sm:flex sm:justify-center"></div>
           <div className="text-center">
             <h1 className="text-4xl font-bold tracking-tight text-accent sm:text-6xl">
