@@ -26,7 +26,7 @@ const HeroSection = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-    <section className="bg-gradient-to-t from-bsg to-accent4 h-screen w-screen">
+    <section className="bg-gradient-to-t from-bsg to-accent4 snap-center min-h-screen min-w-screen">
       <header className="absolute inset-x-0 top-0 z-50">
         <nav
           className="flex items-center justify-between p-6 lg:px-8"

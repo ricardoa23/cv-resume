@@ -1,12 +1,13 @@
-import {HeroSection, SideBar, CvSection } from '@/components'
+import {HeroSection, MainSection } from '@/components'
 
 
 export default function Home() {
+
   return (
-  <main className="flex bg-accent4 h-dvh w-dvw overflow-hidden">
-    <HeroSection />
-    {/* < SideBar /> */}
-    {/* <CvSection /> */}
-  </main>
-  )
+    <main className="flex flex-col bg-bsg snap-y snap-mandatory h-screen w-screen">
+      <HeroSection />
+      <MainSection />
+
+    </main>
+  );
 }
