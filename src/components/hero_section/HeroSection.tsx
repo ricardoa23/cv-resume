@@ -125,7 +125,7 @@ const HeroSection = () => {
             </h1>
             {/*summary Section */}
             <p className="mt-6 text-md leading-8 text-gray-600">
-            Leveraging a strong aerospace background and disciplined approach acquired as an Air Force veteran, I transitioned into tech through CodeUp's intensive 5-month bootcamp, acquiring hands-on experience in full-stack software development. Committed to excellence and continuous learning, I seamlessly blend technical skills with a problem-solving mindset to deliver high-quality software solutions.
+            Leveraging a strong aerospace background and disciplined approach acquired as an Air Force veteran, I transitioned into tech through CodeUp&apos;s intensive 5-month bootcamp, acquiring hands-on experience in full-stack software development. Committed to excellence and continuous learning, I seamlessly blend technical skills with a problem-solving mindset to deliver high-quality software solutions.
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6">
               <a
