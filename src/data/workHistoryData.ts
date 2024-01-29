@@ -1,6 +1,6 @@
 import { WorkHistoryModel } from "@/models";
 
- export const workHistoryData: WorkHistoryModel[] = [
+const workHistoryData: WorkHistoryModel[] = [
     {
         title: 'Aircraft Mechanic',
         company: 'United States Air Force',
@@ -34,3 +34,5 @@ import { WorkHistoryModel } from "@/models";
         duties: ['Assembled complex sub-assemblies like Raptor TCA with precision, focusing on quality and contributing to process improvements.', 'Maintained and repaired thermal coating systems, ensuring high-quality coatings and minimal system downtime.', 'Developed detailed, illustrated TBC process guides to enhance training and team productivity.', 'Partnered with engineers to refine processes, cut production times, and boost safety and cost-efficiency.', 'Performed hydrostatic tests on engines to ensure SpaceX\'s safety and efficiency standards were met.']
     }
 ];
+
+export default workHistoryData;

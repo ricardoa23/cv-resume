@@ -1,6 +1,6 @@
 import { projectsModel } from '@/models'
 
-export const projectsData: projectsModel[] = [
+const projectsData: projectsModel[] = [
     {
         title: 'CV website (this website)',
         description: 'A website to showcase my projects and skills, my work History and my contact information.',
@@ -25,3 +25,5 @@ export const projectsData: projectsModel[] = [
         technologies: ['Typescript', 'React', 'Docx.js', 'CSS', 'TailwindCSS']
     }
 ]
+
+export default projectsData;
