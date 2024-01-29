@@ -7,7 +7,7 @@ export default function Home() {
     <main className="flex flex-col snap-y snap-proximity min-h-screen overflow-scroll">
       <HeroSection />
       <MainSection />
-      <Footer />
+      {/* <Footer /> */}
     </main>
   );
 }

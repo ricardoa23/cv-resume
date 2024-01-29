@@ -1,5 +1,5 @@
 import React from 'react'
-import { workHistoryData as data } from '@/data/workHistoryData'
+import { workHistoryData as data } from '@/data'
 
 
 const WorkHistory = () => {

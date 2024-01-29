@@ -1,5 +1,5 @@
 import React from 'react'
-import { projectsData as data } from '@/data/projectsData'
+import { projectsData as data } from '@/data/'
 
 
 const Projects = () => {
