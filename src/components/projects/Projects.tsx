@@ -1,5 +1,6 @@
 import React from 'react'
 import { projectsData as data } from '@/data/'
+import Image from 'next/image';
 
 
 const Projects = () => {
@@ -8,7 +9,11 @@ const Projects = () => {
             <div key={index} className="border-4 border-solid border-borderBlue border-xl bg-offWhite m-8 rounded-xl px-3">
                 <h3 className="text-4xl text-center pt-5 text-accent3">{project.title}</h3>
                 <div className="h-6xl w-xl px-3">
-                <img src={project.image} alt="Screenshot of project" className="rounded-xl border-2 border-solid border-borderBlue box-shadow-xl"/>
+                    <Image 
+                        src={project.image}
+                        alt="Screenshot of project" 
+                        className="rounded-xl border-2 border-solid border-borderBlue box-shadow-xl"
+                    />
                 </div>
                 <div>
                     <p className="py-2">{project.description}</p>
