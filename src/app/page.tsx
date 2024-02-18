@@ -1,4 +1,4 @@
-import {HeroSection, MainSection, Footer } from '@/components'
+import {HeroSection, MainSection } from '@/components'
 
 
 export default function Home() {
@@ -7,7 +7,6 @@ export default function Home() {
     <main className="flex flex-col snap-y snap-proximity min-h-screen overflow-scroll">
       <HeroSection />
       <MainSection />
-      {/* <Footer /> */}
     </main>
   );
 }

@@ -6,7 +6,7 @@ const WorkHistory = () => {
 
   const dataMapping = data.map((item, index) => {
     return (
-      <div key={index} className="border-4 border-solid border-accent4 m-8 bg-cvbg rounded-lg px-3">
+      <div key={index} className="border-4 border-solid border-borderBlue m-8 bg-offWhite rounded-lg px-3">
         <h2  className="text-center text-4xl text-accent3 pt-3">{item.title}</h2>
         <h3 className="text-xl">{item.company}</h3>
         <p className="text-md">{item.location}</p>

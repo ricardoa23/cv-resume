@@ -14,13 +14,18 @@ const config: Config = {
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
       colors: {
-        accent1: "#219EBC",
-        accent2: "#023047",
-        accent3: "#FB8500",
-        accent4: "#FFB703",
-        sidebar: "#8ECAE6",
-        cvbg: "#D7D7D7",
-        bsg: "#848482"
+        ctaHover: "#EF233C", // Tealish blue CTA hover
+        cta: "#D90429", // Dark blue
+        accent1: "#FB8500", // Orange
+        accent2: "#FFB703", // Yellow
+        skyBlue: "#8ECAE6", // Sky Blue
+        cvbg: "#D7D7D7", // Light Gray
+        bsg: "#848482",  // Dark Gray
+        bgDarkBlue: "#01161E",
+        bgLightBlue: "#124559",
+        sectionBGBlue: "#AEC3B0",
+        borderBlue: "#598392",
+        offWhite: "#EFF6E0",
       }
     },
   },
@@ -32,4 +37,21 @@ export default config
         cta: "1E90FF",
         sidebarGray: "848484",
         cvbg: "D7D7D7"
+
+      ctaHover: "#219EBC", // Tealish blue CTA hover
+        cta: "#023047", // Dark blue
+        accent1: "#FB8500", // Orange
+        accent2: "#FFB703", // Yellow
+        skyBlue: "#8ECAE6", // Sky Blue
+        cvbg: "#D7D7D7", // Light Gray
+        bsg: "#848482"  // Dark Gray
+
+        bgDarkBlue: 01161E,
+        bgLightBlue: 124559,
+        sectionBGBlue: 598392,
+        borderBlue: AEC3B0,
+        offWhite: EFF6E0
+
+
+
 */

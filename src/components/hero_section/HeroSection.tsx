@@ -26,7 +26,7 @@ const HeroSection = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-    <section className="bg-gradient-to-t from-bsg to-accent4 snap-center min-h-screen min-w-screen">
+    <section className="bg-gradient-to-t from-bgDarkBlue to-bgLightBlue snap-center min-h-screen min-w-screen">
       <header className="absolute inset-x-0 top-0 z-50">
         <nav
           className="flex items-center justify-between p-6 lg:px-8"
@@ -130,19 +130,19 @@ const HeroSection = () => {
             <div className="mt-10 flex items-center justify-center gap-x-6">
               <a
                 href="#"
-                className="rounded-md min-w-[120px] bg-accent2 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-accent1 border-white border border-solid"
+                className="rounded-md min-w-[120px] bg-cta px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-ctaHover border-white border border-solid"
               >
                 Work History
               </a>
               <a
                 href="#"
-                className="rounded-md min-w-[120px] bg-accent2 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-accent1 border-white border border-solid "
+                className="rounded-md min-w-[120px] bg-cta px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-ctaHover border-white border border-solid "
               >
                 Portfolio
               </a>
               <a
                 href="#"
-                className=" border border-solid border-white rounded-md min-w-[120px] bg-accent2 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-accent1"
+                className=" border border-solid border-white rounded-md min-w-[120px] bg-cta px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-ctaHover"
               >
                 Education
               </a>
@@ -152,7 +152,7 @@ const HeroSection = () => {
         <div className="flex justify-center items-start">
           <a
             href="#"
-            className="rounded-md min-w-[120px] bg-accent2 px-3.5 py-2 text-sm font-semibold text-white shadow-sm hover:bg-accent1 text-center border-white border border-solid"
+            className="rounded-md min-w-[120px] bg-cta px-3.5 py-2 text-sm font-semibold text-white shadow-sm hover:bg-ctaHover text-center border-white border border-solid"
           >
             Take A Look
           </a>
