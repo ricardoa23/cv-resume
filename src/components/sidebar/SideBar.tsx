@@ -9,7 +9,7 @@ import Image from 'next/image';
 
 const SideBar = () => {
   return (
-    <div className="rounded-2xl border-4 border-solid border-borderBlue w-1/3 bg-sectionBGBlue flex flex-col justify-between position-absolute overflow-hidden m-3">
+    <div className="rounded-2xl border-4 border-solid border-borderBlue md:w-1/3 w-screen bg-sectionBGBlue flex flex-col justify-between md:position-absolute md:overflow-hidden md:m-3">
     <div>
       <Image
         alt="Image of me"
@@ -27,7 +27,8 @@ const SideBar = () => {
       <div className="flex flex-col justify-between items-center">
         <div id="resume">
         <a
-            href="#"
+            href="/my-Resume.pdf"
+            download="Ricardo Ayala's Resume"
             className="rounded-md min-w-[120px] bg-cta px-3.5 py-2 text-sm font-semibold text-white shadow-sm hover:bg-ctaHover text-center border-white border border-solid"
           >
             Download my Resume
